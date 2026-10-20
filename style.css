@@ -304,6 +304,12 @@ section {
   font: 500 0.85rem "Pixelify Sans", sans-serif;
   width: 140px;
 }
+.zip[data-zip="minji"] { order: 1; }
+.zip[data-zip="hanni"] { order: 2; }
+.zip[data-zip="danielle"] { order: 3; }
+.zip[data-zip="haerin"] { order: 4; }
+.zip[data-zip="hyein"] { order: 5; }
+.zip[data-zip="nwjns"] { order: 6; }
 
 .discos {
   display: grid;
