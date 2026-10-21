@@ -274,27 +274,36 @@ section {
   line-height: 1.35;
   text-align: justify;
   max-width: 240px;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+.tarjeta:hover {
+  outline: 2px solid #111;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+  transform: translateY(-6px) scale(1.03);
 }
 .miembro-minji .tarjeta:hover {
-  background-color: rgba(19, 68, 183, 0.4);
-  border-color: rgba(19, 68, 183, 0.7);
+  background-color: rgba(19, 68, 183, 0.75);
+  border-color: rgba(19, 68, 183, 0.95);
 }
 .miembro-hanni .tarjeta:hover {
-  background-color: rgba(255, 105, 180, 0.4);
-  border-color: rgba(255, 105, 180, 0.7);
+  background-color: rgba(255, 105, 180, 0.75);
+  border-color: rgba(255, 105, 180, 0.95);
 }
 .miembro-danielle .tarjeta:hover {
-  background-color: rgba(255, 215, 0, 0.45);
-  border-color: rgba(255, 193, 7, 0.8);
+  background-color: rgba(255, 215, 0, 0.8);
+  border-color: rgba(255, 193, 7, 1);
 }
 .miembro-haerin .tarjeta:hover {
-  background-color: rgba(46, 139, 87, 0.35);
-  border-color: rgba(46, 139, 87, 0.7);
+  background-color: rgba(46, 139, 87, 0.75);
+  border-color: rgba(46, 139, 87, 0.95);
 }
 .miembro-hyein .tarjeta:hover {
-  background-color: rgba(147, 112, 219, 0.4);
-  border-color: rgba(147, 112, 219, 0.75);
+  background-color: rgba(147, 112, 219, 0.75);
+  border-color: rgba(147, 112, 219, 0.95);
 }
 .tarjeta h3 {
   font-size: 1.2rem;
