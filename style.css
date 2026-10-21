@@ -309,21 +309,8 @@ section {
   margin-bottom: 2px;
 }
 .tarjeta u {
-  margin: 0;
-}
-.cumple {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+  display: block;
   margin-bottom: 4px;
-}
-.emojis {
-  display: inline-flex;
-  align-items: center;
-  gap: 3px;
-  font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
-  font-size: 0.85rem;
-  line-height: 1;
 }
 
 .zips {
