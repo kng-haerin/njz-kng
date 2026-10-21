@@ -309,16 +309,20 @@ section {
   margin-bottom: 2px;
 }
 .tarjeta u {
-  display: block;
-  margin-bottom: 4px;
+  margin: 0;
 }
-.emojis {
+.cumple {
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-bottom: 6px;
-  font-family: sans-serif;
-  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+.emojis {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+  font-size: 0.85rem;
   line-height: 1;
 }
 
