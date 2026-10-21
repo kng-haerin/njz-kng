@@ -283,27 +283,26 @@ section {
 .tarjeta:hover {
   outline: 2px solid #111;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
-  transform: translateY(-6px) scale(1.03);
 }
 .miembro-minji .tarjeta:hover {
-  background-color: rgba(19, 68, 183, 0.75);
-  border-color: rgba(19, 68, 183, 0.95);
+  background-color: rgba(19, 68, 183, 0.539);
+  border-color: rgba(19, 68, 183, 0.71);
 }
 .miembro-hanni .tarjeta:hover {
-  background-color: rgba(255, 105, 180, 0.75);
-  border-color: rgba(255, 105, 180, 0.95);
+  background-color: rgba(255, 105, 180, 0.521);
+  border-color: rgba(255, 105, 180, 0.724);
 }
 .miembro-danielle .tarjeta:hover {
-  background-color: rgba(255, 215, 0, 0.8);
-  border-color: rgba(255, 193, 7, 1);
+  background-color: rgba(255, 217, 0, 0.53);
+  border-color: rgba(255, 193, 7, 0.769);
 }
 .miembro-haerin .tarjeta:hover {
-  background-color: rgba(46, 139, 87, 0.75);
-  border-color: rgba(46, 139, 87, 0.95);
+  background-color: rgba(46, 139, 86, 0.498);
+  border-color: rgba(46, 139, 86, 0.774);
 }
 .miembro-hyein .tarjeta:hover {
-  background-color: rgba(147, 112, 219, 0.75);
-  border-color: rgba(147, 112, 219, 0.95);
+  background-color: rgba(148, 112, 219, 0.548);
+  border-color: rgba(148, 112, 219, 0.747);
 }
 .tarjeta h3 {
   font-size: 1.2rem;
