@@ -312,6 +312,15 @@ section {
   display: block;
   margin-bottom: 4px;
 }
+.emojis {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  line-height: 1;
+}
 
 .zips {
   display: flex;
